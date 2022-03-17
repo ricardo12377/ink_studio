@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100&display=swap');
+.container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: bold;
+    background-color: #202024;
+    width: 100%;
+}
+
+.logo {
+    font-size: 35px;      
+    color: tomato;
+    font-weight: 1000;
+}
+
+.lista {
+    list-style: none;
+    display: flex;
+    margin: 2em;
+    gap: 2em;
+    font-size: 25px;
+}
+
+.lista li {
+    color:  tomato;
+    cursor: pointer;
+}
+
+@media (max-width: 600px)
+{
+    .logo {
+        font-size: 20px;
+    }
+
+    .lista li {
+        font-size: 15px;
+    }
+}

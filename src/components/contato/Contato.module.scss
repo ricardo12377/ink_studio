@@ -1,0 +1,37 @@
+.container{
+    height: 600px;
+    width: 100vw;
+   background-image: url('https://images.hdqwalls.com/download/girl-face-tattoo-4k-qo-1680x1050.jpg');
+   display: flex;
+   align-items: center;
+   justify-content: center;
+
+}
+
+
+.sobrenos {
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+    padding: 10px;
+    align-items: center;
+}
+.sobrenos h1 {
+    margin-bottom: 1em;
+}
+
+.contatos {
+    width: 50vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    color: rgb(235, 40, 22);
+    height: 400px;
+}
+
+.contatos h2 {
+    cursor: pointer;
+}

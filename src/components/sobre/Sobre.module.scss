@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.container{
+   width: 100vw;
+   height: 600px;
+   display: flex;
+   -webkit-font-smoothing: antialiased; 
+}
+
+.descrisao {
+    background-image: url('https://www.selecoes.com.br/wp-content/uploads/2021/09/iStock-669911398.jpg');
+    
+    width: 50vw;
+    height: 630px;
+    
+  
+}
+
+.foto {
+    background-image: url('https://img.olhardigital.com.br/wp-content/uploads/2021/07/shutterstock_1038075001.jpg');
+    width: 50vw;
+    height: 630px;
+   
+
+}
+
+
+.section {
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    height: 600px;
+    color: white;
+    padding: 15px;
+    font-size: 30px;
+  
+
+}
+
+.section h1 {
+    margin-bottom: 4em;
+   color: white;
+    
+}
+
+.section p {
+   color: white;
+}
+
+@media (max-width: 1024px)
+{
+    .container {
+        flex-direction: column;
+        height: 1200px;
+    }
+
+    .descrisao {
+        width: 100%;
+    }
+
+    .foto {
+        width: 100%;
+    }
+
+    .section {
+        font-size: 13px;
+        width: 100%;
+    }
+}
+
